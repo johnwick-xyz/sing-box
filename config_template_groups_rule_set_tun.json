@@ -137,44 +137,12 @@
       ]
     },
     {
-      "tag":"Twitter",
-      "type":"selector",
-      "outbounds":[
-        "HongKong",
-        "TaiWan",
-        "Singapore",
-        "Japan",
-        "America",
-        "Others"
-      ]
-    },
-    {
-      "tag":"Facebook",
-      "type":"selector",
-      "outbounds":[
-        "HongKong",
-        "TaiWan",
-        "Singapore",
-        "Japan",
-        "America",
-        "Others"
-      ]
-    },
-    {
       "tag":"BiliBili",
       "type":"selector",
       "outbounds":[
         "direct",
         "HongKong",
         "TaiWan"
-      ]
-    },
-    {
-      "tag":"Bahamut",
-      "type":"selector",
-      "outbounds":[
-        "TaiWan",
-        "Proxy"
       ]
     },
     {
@@ -201,30 +169,6 @@
         "America"
       ],
       "default": "Japan"
-    },
-    {
-      "tag":"Netflix",
-      "type":"selector",
-      "outbounds":[
-        "HongKong",
-        "TaiWan",
-        "Singapore",
-        "Japan",
-        "America",
-        "Others"
-      ]
-    },
-    {
-      "tag":"Disney+",
-      "type":"selector",
-      "outbounds":[
-        "HongKong",
-        "TaiWan",
-        "Singapore",
-        "Japan",
-        "America",
-        "Others"
-      ]
     },
     {
       "tag":"Apple",
