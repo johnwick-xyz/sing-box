@@ -137,32 +137,12 @@
       ]
     },
     {
-      "tag":"Facebook",
-      "type":"selector",
-      "outbounds":[
-        "HongKong",
-        "TaiWan",
-        "Singapore",
-        "Japan",
-        "America",
-        "Others"
-      ]
-    },
-    {
       "tag":"BiliBili",
       "type":"selector",
       "outbounds":[
         "direct",
         "HongKong",
         "TaiWan"
-      ]
-    },
-    {
-      "tag":"Bahamut",
-      "type":"selector",
-      "outbounds":[
-        "TaiWan",
-        "Proxy"
       ]
     },
     {
@@ -189,30 +169,6 @@
         "America"
       ],
       "default": "Japan"
-    },
-    {
-      "tag":"Netflix",
-      "type":"selector",
-      "outbounds":[
-        "HongKong",
-        "TaiWan",
-        "Singapore",
-        "Japan",
-        "America",
-        "Others"
-      ]
-    },
-    {
-      "tag":"Disney+",
-      "type":"selector",
-      "outbounds":[
-        "HongKong",
-        "TaiWan",
-        "Singapore",
-        "Japan",
-        "America",
-        "Others"
-      ]
     },
     {
       "tag":"Apple",
@@ -435,16 +391,8 @@
         "outbound": "Telegram"
       },
       {
-        "rule_set":["geoip-facebook", "geosite-facebook"],
-        "outbound": "Facebook"
-      },
-      {
         "rule_set": "geosite-bilibili",
         "outbound": "BiliBili"
-      },
-      {
-        "rule_set": "geosite-bahamut",
-        "outbound": "Bahamut"
       },
       {
         "rule_set": "geosite-spotify",
@@ -453,14 +401,6 @@
       {
         "rule_set": "geosite-tiktok",
         "outbound": "TikTok"
-      },
-      {
-        "rule_set": ["geoip-netflix", "geosite-netflix"],
-        "outbound": "Netflix"
-      },
-      {
-        "rule_set": "geosite-disney",
-        "outbound": "Disney+"
       },
       {
         "rule_set": ["geoip-apple", "geosite-apple", "geosite-amazon"],
@@ -545,31 +485,10 @@
         "download_detour": "direct"
       },
       {
-        "tag": "geoip-facebook",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/facebook.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-facebook",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/facebook.srs",
-        "download_detour": "direct"
-      },
-      {
         "tag": "geosite-bilibili",
         "type": "remote",
         "format": "binary",
         "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/bilibili.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-bahamut",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/bahamut.srs",
         "download_detour": "direct"
       },
       {
@@ -584,27 +503,6 @@
         "type": "remote",
         "format": "binary",
         "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/tiktok.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geoip-netflix",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/netflix.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-netflix",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/netflix.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-disney",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/disney.srs",
         "download_detour": "direct"
       },
       {
