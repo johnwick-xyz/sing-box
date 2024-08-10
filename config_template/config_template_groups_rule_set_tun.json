@@ -107,10 +107,10 @@
         "TaiWan",
         "Singapore",
         "Japan",
-        "美国节点",
+        "America",
         "Others"
       ],
-      "default": "美国节点"
+      "default": "America"
     },
     {
       "tag":"Google",
@@ -120,7 +120,7 @@
         "TaiWan",
         "Singapore",
         "Japan",
-        "美国节点",
+        "America",
         "Others"
       ]
     },
@@ -132,7 +132,7 @@
         "TaiWan",
         "Singapore",
         "Japan",
-        "美国节点",
+        "America",
         "Others"
       ]
     },
@@ -153,10 +153,10 @@
         "TaiWan",
         "Singapore",
         "Japan",
-        "美国节点",
+        "America",
         "Others"
       ],
-      "default": "美国节点"
+      "default": "America"
     },
     {
       "tag":"TikTok",
@@ -166,7 +166,7 @@
         "TaiWan",
         "Singapore",
         "Japan",
-        "美国节点"
+        "America"
       ],
       "default": "Japan"
     },
@@ -179,7 +179,7 @@
         "TaiWan",
         "Singapore",
         "Japan",
-        "美国节点",
+        "America",
         "Others"
       ]
     },
@@ -192,7 +192,7 @@
         "TaiWan",
         "Singapore",
         "Japan",
-        "美国节点",
+        "America",
         "Others"
       ]
     },
@@ -205,7 +205,7 @@
         "TaiWan",
         "Singapore",
         "Japan",
-        "美国节点",
+        "America",
         "Others"
       ]
     },
@@ -217,7 +217,7 @@
         "TaiWan",
         "Singapore",
         "Japan",
-        "美国节点",
+        "America",
         "Others",
         "direct"
       ]
@@ -279,7 +279,7 @@
       ]
     },
     {
-      "tag":"美国节点",
+      "tag":"America",
       "type":"selector",
       "outbounds":[
         "{all}"
