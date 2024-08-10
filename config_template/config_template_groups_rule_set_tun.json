@@ -97,17 +97,9 @@
       "outbounds":[
         "auto",
         "direct",
-        "美国",
         "{all}"
       ]
-    },
-    {
-      "tag":"美国节点",
-      "type":"selector",
-      "outbounds":[
-        "美国"
-      ]
-    },    
+    },   
     {
       "tag":"OpenAI",
       "type":"selector",
@@ -290,7 +282,7 @@
       "tag":"美国节点",
       "type":"selector",
       "outbounds":[
-        "美国"
+        "{all}"
       ],
       "filter":[
         {"action":"include","keywords":["🇺🇸|US|us|美国|美|United States"]}
