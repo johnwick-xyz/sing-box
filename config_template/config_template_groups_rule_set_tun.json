@@ -97,6 +97,7 @@
       "outbounds":[
         "auto",
         "direct",
+        "美国节点",
         "{all}"
       ]
     },
@@ -282,7 +283,6 @@
       "tag":"美国场景",
       "type":"selector",
       "outbounds":[
-        "{all}",
         "美国节点"
       ],
       "filter":[
