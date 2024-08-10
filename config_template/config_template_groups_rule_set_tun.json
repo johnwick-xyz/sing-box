@@ -97,10 +97,16 @@
       "outbounds":[
         "auto",
         "direct",
-        "美国节点",
         "{all}"
       ]
     },
+    {
+      "tag":"美国节点",
+      "type":"selector",
+      "outbounds":[
+        "美国",
+      ]
+    },    
     {
       "tag":"OpenAI",
       "type":"selector",
@@ -283,7 +289,8 @@
       "tag":"美国",
       "type":"selector",
       "outbounds":[
-        "America"
+        "美国节点",
+        "{all}"
       ],
       "filter":[
         {"action":"include","keywords":["🇺🇸|US|us|美国|美|United States"]}
@@ -311,20 +318,7 @@
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
       "tolerance": 50
-    },
-    {
-      "tag":"美国节点",
-      "type":"selector",
-      "outbounds":[
-        "America"
-      ],
-      "filter":[
-        {"action":"exclude","keywords":["网站|地址|剩余|过期|时间|有效"]}
-      ],      
-      "url": "http://www.gstatic.com/generate_204",
-      "interval": "10m",
-      "tolerance": 50
-    },    
+    },   
     {
       "type": "direct",
       "tag": "direct"
