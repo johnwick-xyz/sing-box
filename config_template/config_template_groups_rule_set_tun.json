@@ -280,10 +280,10 @@
       ]
     },
     {
-      "tag":"美国场景",
+      "tag":"美国",
       "type":"selector",
       "outbounds":[
-        "美国节点"
+        "America"
       ],
       "filter":[
         {"action":"include","keywords":["🇺🇸|US|us|美国|美|United States"]}
@@ -316,7 +316,7 @@
       "tag":"美国节点",
       "type":"selector",
       "outbounds":[
-        "美国场景"
+        "America"
       ],
       "filter":[
         {"action":"exclude","keywords":["网站|地址|剩余|过期|时间|有效"]}
