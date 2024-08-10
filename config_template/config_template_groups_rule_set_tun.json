@@ -314,7 +314,7 @@
     },
     {
       "tag":"美国节点",
-      "type":"urltest",
+      "type":"selector",
       "outbounds":[
         "美国场景"
       ],
