@@ -107,10 +107,10 @@
         "TaiWan",
         "Singapore",
         "Japan",
-        "America",
+        "美国节点",
         "Others"
       ],
-      "default": "America"
+      "default": "美国节点"
     },
     {
       "tag":"Google",
@@ -120,7 +120,7 @@
         "TaiWan",
         "Singapore",
         "Japan",
-        "America",
+        "美国节点",
         "Others"
       ]
     },
@@ -132,7 +132,7 @@
         "TaiWan",
         "Singapore",
         "Japan",
-        "America",
+        "美国节点",
         "Others"
       ]
     },
@@ -153,10 +153,10 @@
         "TaiWan",
         "Singapore",
         "Japan",
-        "America",
+        "美国节点",
         "Others"
       ],
-      "default": "America"
+      "default": "美国节点"
     },
     {
       "tag":"TikTok",
@@ -166,7 +166,7 @@
         "TaiWan",
         "Singapore",
         "Japan",
-        "America"
+        "美国节点"
       ],
       "default": "Japan"
     },
@@ -179,7 +179,7 @@
         "TaiWan",
         "Singapore",
         "Japan",
-        "America",
+        "美国节点",
         "Others"
       ]
     },
@@ -192,7 +192,7 @@
         "TaiWan",
         "Singapore",
         "Japan",
-        "America",
+        "美国节点",
         "Others"
       ]
     },
@@ -205,7 +205,7 @@
         "TaiWan",
         "Singapore",
         "Japan",
-        "America",
+        "美国节点",
         "Others"
       ]
     },
@@ -217,7 +217,7 @@
         "TaiWan",
         "Singapore",
         "Japan",
-        "America",
+        "美国节点",
         "Others",
         "direct"
       ]
@@ -279,10 +279,11 @@
       ]
     },
     {
-      "tag":"America",
+      "tag":"美国场景",
       "type":"selector",
       "outbounds":[
-        "{all}"
+        "{all}",
+        "美国节点"
       ],
       "filter":[
         {"action":"include","keywords":["🇺🇸|US|us|美国|美|United States"]}
@@ -311,6 +312,16 @@
       "interval": "10m",
       "tolerance": 50
     },
+    {
+      "tag":"美国节点",
+      "type":"urltest",
+      "outbounds":[
+        "美国场景"
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "10m",
+      "tolerance": 50
+    },    
     {
       "type": "direct",
       "tag": "direct"
