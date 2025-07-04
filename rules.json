@@ -5,7 +5,12 @@
      "domain_keyword": [
         "risechina",
         "serviceshare"
-      ]
+      ],
+     "domain_suffix": [
+        "merchant.serviceshare.com",
+        "insurance.serviceshare.com",
+        "gateway.serviceshare.com",
+        "newbosskg.serviceshare.com"      
     }
   ]
 }
