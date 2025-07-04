@@ -1,11 +1,11 @@
 {
   "version": 3,
   "rules": [
-     {   
-     "domain_keyword": [
+    {
+      "domain_keyword": [
         "risechina",
         "serviceshare"
       ]
-     }  
+    }
   ]
 }
